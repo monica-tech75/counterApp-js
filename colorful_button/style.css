@@ -32,6 +32,7 @@ html, body {
 }
 
 button {
+  font-family: var(--font-family);
   color: var(--btn-color);
   background-color: var(--body-bg);
   font-size: 1.3rem;

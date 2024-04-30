@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body h1 {
+  text-align: center;
+}
+
+.search-btn-container {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
