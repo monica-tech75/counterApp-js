@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100%;
+  background: url(./assets/blackjack-table.png);
+  background-size: cover;
+}
+.game-box {
+  display: flex;
+  width: 100svw;
+  height: 100svh;
+  align-items: center;
+  justify-content: center;
+  
+}
+.game {
+  border: 5px solid goldenrod;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url('./assets/blackjack-table.png'); 
+  background: linear-gradient(to bottom right, rgb(14, 147, 14), lightgreen);
+  padding: 1rem;
+  text-align: center;
+}
+.game h1{
+  color: goldenrod;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  background-color: aliceblue;
+  
+}
+.center-align {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.left-align {
+  text-align: left;
+  margin-left: .5rem;
+  color: rgb(244, 242, 244);
+  font-weight: 800;
+}
+.btn {
+  padding: .5rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 200px;
+}
+
+.start-btn {
+  color:rgb(14, 147, 14);
+}
+.start-btn:hover {
+  cursor: pointer;
+  border: 3px solid rgb(8, 166, 8);
+}
+
+.cards-btn {
+  color: goldenrod;
+}
+
+.cards-btn:hover {
+  cursor: pointer;
+  border: 3px solid goldenrod;
+}
+
+
+
+
+
+

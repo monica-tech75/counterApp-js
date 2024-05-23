@@ -50,5 +50,11 @@ button:hover {
   background: linear-gradient(115deg, var(--grad-color5), var(--grad-color4), var(--grad-color3), var(--grad-color2), var(--grad-color1));
   padding: 0.2rem;
 }
+#msg-display {
+  color: white;
+  font-size: large;
+  margin-left: 30px;
+  letter-spacing: 3px;
+}
 
 
