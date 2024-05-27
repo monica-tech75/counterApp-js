@@ -9,7 +9,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100svw;
   height: 100svh;
-  background-color: darksalmon;
+  background-color: rgb(233, 122, 228);
 }
 section {
   width: 100svw;
@@ -23,10 +23,9 @@ input[type="search"] {
   padding: 0.5rem;
   width: 30svw;
   border-radius: 10px;
-  border: none;
+  border: 5px solid rgb(69, 84, 219);
   font-size: 1.5rem;
   font-weight: 600;
-  box-shadow: -4px -4px 3px 1px rgba(177, 87, 59, 0.5);
 }
 
 section > ul > li {

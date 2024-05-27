@@ -1,3 +1,5 @@
+const searchBarEl = document.getElementById("#search-bar");
+
 document.addEventListener("keyup", (e) => {
   // e.target.matches("#search-bar");
   // console.log(e.target.value);
